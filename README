@@ -1,0 +1,5 @@
+Upgrade GitLab as usual but before restart:
+1. replace/modify files accordingly
+2. bundle exec rake assets:clean RAILS_ENV=production
+3. bundle exec rake assets:precompile RAILS_ENV=production
+4. bundle exec rake cache:clear RAILS_ENV=production
